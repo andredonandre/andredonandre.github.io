@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: andredonandre/andredonandre.github.io/   # Branch to update (optional; defaults to master)
+  repo: andredonandre/andredonandre.github.io   # Branch to update (optional; defaults to master)
   branch: master # Branch to update
   
 publish_mode: editorial_workflow
