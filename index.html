@@ -7,10 +7,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href= "./css/main.css">  
+    <script src="js/angular.min.js"></script>
+    <script src="app/app.js"></script>
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
     <title>Andrew Owen Sembatya</title>
   </head>
-  <body>    
+  <body ng-app="App">    
     <div class="container">
         <div class="text-center pt-3">
         <h1>Andrew Owen Sembatya</h1>
@@ -42,6 +44,7 @@
                     <h4 class="">Reading 📖</h4>
                     <p class="mb-0">
                         The Great Ponds by Chinua Achebe
+                        {{8 + 5}}
                     </p>
                   </div>
                   <div class="p-3 mb-3 bg-light rounded">
@@ -55,7 +58,6 @@
                   </div>
                   <div class="p-3">
                       <h4>Interests</h4>
-                      <div">
                         <span><a href="#">technology</a></span>
                         <span><a href="#">Agriculture</a></span>
                         <span><a href="#">Education</a></span>
