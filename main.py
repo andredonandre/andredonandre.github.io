@@ -8,12 +8,16 @@ def Index():
 
 @app.route('/blog')
 def Blog():
-    return '<h1>blog page</h2>'
+    return render_template('blog.html')
 
 @app.route('/contact')
 def Contact():
-    return '<h1>Contact page</h2>'
+    return render_template('contact.html')
 
 @app.route('/projects')
 def Projects():
-    return '<h1>Welcome the projects page</h2>'
+    return render_template('projects.html')
+
+@app.route('/', subdomain = "api")
+def Resume():
+    return '{"name": "Andrew Sembatya", "Title": "Head of development"}'
